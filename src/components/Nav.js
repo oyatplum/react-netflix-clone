@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import './Nav.css'
 import { useNavigate } from 'react-router-dom'
+import oyat from '../image/oyat.jpg'
 
 export default function Nav() {
 
@@ -49,7 +50,7 @@ export default function Nav() {
 
         <img 
             alt='User logged'
-            src='https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png'
+            src={oyat}
             className='nav_avatar'
         />
     </nav>
