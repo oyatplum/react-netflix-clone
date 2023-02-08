@@ -16,6 +16,9 @@
     }
   }
   @media (max-width: 768px) {
+    .banner__title {
+      font-size: 2rem !important;
+    }
     .banner__contents {
       width: min-content !important;
       padding-left: 2.3rem;

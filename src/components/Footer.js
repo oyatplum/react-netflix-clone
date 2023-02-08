@@ -41,7 +41,6 @@ const FooterContainer = styled.div`
     z-index: 100;
 
     @media (max-width: 768px) {
-        padding: 20px 20px;
         padding-bottom: 30px;
     }
 `;
@@ -56,6 +55,10 @@ const FooterContainer = styled.div`
  const FooterLinkTitle = styled.h1`
     color: gray;
     font-size: 17px;
+
+    @media (max-width: 768px) {
+        text-align: center;
+ }
   `;
  const FooterLinkContent = styled.div`
     display: flex;
@@ -80,6 +83,8 @@ const FooterContainer = styled.div`
 
     @media (max-width: 768px) {
         margin-bottom: 16px;
+        width: 90px;
+        text-align: center;
     }
  `;
  const FooterDescContainer = styled.div`
